@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Raoan Marcel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilo-portf.css">
+</head>
+
+<body>
+    <header>
+        <section id="inicio"></section>
+        <div class="container">
+            <div>
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="labeldark" for="chk">
+                  <div class="ball"></div>
+                </label>
+            </div>
+            <nav class="nav-header">
+                <div class="menu-mobile" onclick="toggleMenu()">
+                    <div class="linha1"></div>
+                    <div class="linha2"></div>
+                    <div class="linha3"></div>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#meconheca" onclick="closeMenu()">Me conheça!</a></li>
+                    <li><a href="#idiomas" onclick="closeMenu()">Idiomas</a></li>
+                    <li><a href="#tecnologias" onclick="closeMenu()">Tecnologias</a></li>
+                    <li><a href="#projetos" onclick="closeMenu()">Projetos</a></li>
+                    <li><a href="#contato" onclick="closeMenu()">Contate-me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="estrutura">
+        <img src="Images/hexagono1.png" alt="" class="hexagono1">
+        <img src="Images/hexagono2.png" alt="" class="hexagono2">
+        <img src="Images/hexagono3.png" alt="" class="hexagono3">
+        <img src="Images/imagem_2024-06-05_210702911 1.png" alt="" class="foto-escura">
+    </div>
+    <div class="titulo">
+        <h1>Raoan Marcel Jukowski</h1>
+
+        <h2 class="legenda">Desenvolvedor Full-stack</h2>
+    </div>
+    <div class="contato">
+        <a href="https://www.instagram.com/raoanmarcel/?hl=pt-br" target="_blank"><img src="Images/Instagram.png" alt="" class="contato-img"></a>
+        <a href="https://www.linkedin.com/in/raoan-marcel-ab12162a0/" target="_blank"> <img src="Images/Linkedin.png" alt="" class="contato-img"></a>
+        <a href="https://wa.me/+5542998697553" target="_blank"> <img src="Images/whatsapp.png" alt="" class="contato-img"></a>
+        <a href="https://github.com/RaoanMarcel" target="_blank"> <img src="Images/Github.png" alt="" class="contato-img"></a>
+    </div>
+    <div class="button-container">
+        <button><a href="#contato">Contate-me</a></button>
+    </div>
+    <section id="meconheca"></section>
+    <div class="sobre-container">
+        <h2>| Me conheça! |</h2>
+        <p class="p-sobre">Olá, meu nome é Raoan! Tenho um grande interesse por tecnologia e estou sempre explorando novas tendências. Além disso, sou apaixonado por jogos e competições, indo da Formula 1, passando pelo futebol e indo até mesmo os E esports Sou um entusiasta
+            de carros, tanto pelo design quanto pela engenharia, e gosto de acompanhar as novidades do setor. Meu gosto musical é bastante eclético, abrangendo diversos gêneros, de um extremo a outro Além dessas paixões, gosto de me envolver em diversas
+            atividades, sempre buscando novos desafios e aprendizados. Sou uma pessoa dinâmica e versátil, com interesses que vão desde a tecnologia e entretenimento até o mundo automotivo e a música. </p>
+        <div class="fundoperfil"><img src="Images/renderizacao-3d-de-crianca-jogando-jogo-digital.jpg" alt="" class="pia">
+            <br>
+            <ul class="list">
+                <li>Porto União, SC, Brasil</li>
+                <li>27/10/2004</li>
+                <li>Carteira A e B</li>
+
+            </ul>
+        </div>
+        <div class="contato-button-container">
+            <div class="botao-email">
+                <img src="Images/hexagono3.png" alt="" class="hexagono-email">
+                <button class="btt-sobre"> <a href="#idiomas">Mais<br></a>ᐯ</button>
+            </div>
+        </div>
+        <div class="containerout">
+            <img src="Images/hexagono2.png" alt="" class="hexagono-out">
+            <img src="Images/hexagono3.png" alt="" class="hexagono-out2">
+        </div>
+    </div>
+    <section id="idiomas">
+        <div class="idiomas-container">
+            <h2>| Idiomas |</h2>
+            <p>Explore este portfólio de uma nova perspectiva! Escolha um dos idiomas que falo para uma nova experiência.</p>
+            <div class="formulario-idioma">
+                <div class="opcao">
+                    <input type="radio" id="Portugues" name="language" value="portugues.html">
+                    <label for="Portugues">Portugues</label>
+                </div>
+                <div class="opcao">
+                    <input type="radio" id="Ingles" name="language" value="ingles.html">
+                    <label for="Ingles">Ingles</label>
+                </div>
+                <div class="opcao">
+                    <input type="radio" id="Espanhol" name="language" value="espanhol.html">
+                    <label for="Espanhol">Espanhol</label>
+                </div>
+                <div class="estrelas">
+                    <div class="viagem">
+                        <img src="Images/Globo.png" alt="" class="globo">
+                        <img src="Images/aviao.png" alt="" class="aviao">
+                        <div class="fade"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tecnologias">
+        <div class="tecnologias-container">
+            <h2>| Tecnologias |</h2>
+            <div class="teclogia-conteudo">
+                <img src="Images/icons8-rust-96.png" alt="rusticon" class="imgtecnologia">
+                <p class="txt">Ainda iniciante em Rust, estou aprendendo os fundamentos como tipos de dados, controle de fluxo e princípios de programação segura. Estou me familiarizando com conceitos como ownership, borrowing e lifetimes, que são centrais para a gestão
+                    de memória em Rust. Praticando regularmente, estou dedicado a me tornar um desenvolvedor competente, aproveitando a performance e a segurança que Rust oferece.</p>
+            </div>
+            <div class="teclogia-conteudo">
+                <img src="Images/js 1.png" alt="javascripticon" class="imgtecnologia">
+                <p class="txt">Tenho um nível intermediário em JavaScript. Sou proficiente em ES6, manipulação do DOM e uso de frameworks como React e Node.js. Tenho experiência na criação de aplicações web dinâmicas e na implementação de funcionalidades interativas.
+                    Continuo aprimorando minhas habilidades e explorando novas ferramentas e técnicas na linguagem.</p>
+            </div>
+            <div class="teclogia-conteudo">
+                <img src="Images/icons8-c++-96.png" alt="C++icon" class="imgtecnologia">
+                <p class="txt">Ainda iniciante em C++, estou aprendendo os fundamentos como tipos de dados, controle de fluxo e princípios de programação orientada a objetos. Estou me familiarizando com conceitos como ponteiros, referências, e gerenciamento de memória
+                    dinâmica, que são centrais para a eficiência e flexibilidade em C++. Praticando regularmente, estou dedicado a me tornar um desenvolvedor competente, aproveitando a performance e a capacidade de baixo nível que C++ oferece.</p>
+            </div>
+            <div class="teclogia-conteudo" id="initial-style">
+                <img src="Images/css.png" alt="cssicon" class="imgtecnologia">
+                <p class="txt">Possuo habilidades avançadas em CSS, dominando técnicas como flexbox e grid para criar layouts responsivos e complexos. Tenho experiência em animações CSS, transformações 3D e uso eficiente de pseudo-classes e pseudo-elementos. Além disso,
+                    utilizo pré-processadores como SASS/SCSS para um desenvolvimento CSS mais organizado e modular.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" style="display: none;">
+                <img src="Images/sass.png" alt="saasicon" class="imgtecnologia">
+                <p class="txt">Possuo habilidades avançadas em SASS, utilizando eficientemente variáveis, mixins e funções para modularizar e organizar estilos CSS de forma escalável. Estou familiarizado com a criação de componentes reutilizáveis, uso avançado de aninhamento
+                    e controle preciso sobre a geração de estilos através de SASS. Além disso, integro SASS com frameworks front-end e ferramentas de automação para otimizar o fluxo de desenvolvimento web.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" style="display: none;">
+                <img src="Images/angular.png" alt="angularicon" class="imgtecnologia">
+                <p class="txt">Possuo um conhecimento intermediário em Angular, utilizando componentes, serviços e roteamento para desenvolver aplicações web dinâmicas. Estou familiarizado com a criação e consumo de APIs RESTful, assim como com o uso de RxJS para o
+                    gerenciamento de fluxos de dados assíncronos. Além disso, tenho experiência básica em testes unitários com Jasmine e Karma, e estou focado em aprimorar minhas habilidades para construir aplicações mais complexas e robustas utilizando
+                    o Angular.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" style="display: none;">
+                <img src="Images/react.png" alt="reacticon" class="imgtecnologia">
+                <p class="txt">Estou começando a aprender React, focando em componentes, props e estado básico. Estou explorando como construir interfaces dinâmicas com JSX e gerenciar eventos. Estou entusiasmado para progredir e dominar conceitos como hooks e gerenciamento
+                    de estado avançado.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" style="display: none;">
+                <img src="Images/sql.png" alt="sqlicon" class="imgtecnologia">
+                <p class="txt">Tenho conhecimento intermediário em SQL, capaz de escrever consultas complexas usando operações básicas como SELECT, INSERT, UPDATE e DELETE, além de JOINs para combinar dados de diferentes tabelas. Estou focado em aprimorar minhas habilidades
+                    em modelagem de banco de dados e otimização de consultas.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" style="display: none;">
+                <img src="Images/postgre.png" alt="postgresqlicon" class="imgtecnologia">
+                <p class="txt">Estou familiarizado com o PostgreSQL, utilizando-o para gerenciar bancos de dados relacionais. Tenho experiência com a criação de tabelas, definição de esquemas, e escrita de consultas SQL para recuperar e manipular dados. Além disso,
+                    estou explorando recursos avançados como índices, funções armazenadas e transações para melhorar a eficiência e integridade dos dados. Estou comprometido em expandir meu conhecimento em PostgreSQL para desenvolver soluções robustas
+                    e escaláveis.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" style="display: none;">
+                <img src="Images/mongodb.png" alt="mongodbicon  " class="imgtecnologia">
+                <p class="txt">Estou começando a aprender MongoDB, explorando conceitos básicos como documentos, coleções e bancos de dados. Estou familiarizado com operações fundamentais como inserção, consulta, atualização e exclusão de documentos. Estou entusiasmado
+                    para aprender mais sobre consultas avançadas, índices e como integrar MongoDB em aplicações para armazenamento e recuperação eficiente de dados não relacionais.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" style="display: none;">
+                <img src="Images/ubuntu-inverse 1.png" alt="ubuntuicon" class="imgtecnologia">
+                <p class="txt">Utilizo o Ubuntu diariamente como meu sistema operacional principal em meu trabalho. Estou familiarizado com sua interface intuitiva baseada em GNOME, e uso eficientemente suas ferramentas integradas e aplicativos padrão. Utilizo o terminal
+                    para realizar tarefas administrativas e de desenvolvimento, aproveitando a vasta comunidade e documentação para resolver problemas e aprender novas habilidades. Estou comprometido em explorar e utilizar recursos avançados do Ubuntu
+                    para otimizar minha produtividade e experiência de usuário.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" style="display: none;">
+                <img src="Images/fedora 1.png" alt="ubuntuicon" class="imgtecnologia">
+                <p class="txt">No passado, utilizei o Fedora como meu sistema operacional principal. Aproveitei sua interface baseada em GNOME e a confiabilidade das atualizações frequentes. Durante esse período, explorei suas capacidades para desenvolvimento e administração
+                    de sistemas, utilizando o terminal para realizar tarefas variadas. A experiência me proporcionou um entendimento profundo das suas funcionalidades avançadas e me permitiu otimizar meu fluxo de trabalho de forma eficiente.</p>
+            </div>
+            <div class="teclogia-conteudo conteudo" id="windows" style="display: none;">
+                <img src="Images/janelas 1.png" alt="windowsicon" class="imgtecnologia" id="imgwind">
+                <p class="txt">Atualmente, utilizo o Windows como meu sistema operacional principal. Além de sua interface familiar e robusta, que facilita a realização de uma ampla gama de tarefas pessoais e profissionais, aprecio também sua arquitetura bem desenvolvida.
+                    A arquitetura de sistemas operacionais como o Windows envolve camadas de abstração que gerenciam recursos de hardware, oferecendo uma plataforma estável e confiável para desenvolvimento de software, gerenciamento de arquivos e execução
+                    de aplicativos. Estou sempre interessado em entender mais profundamente como a arquitetura do sistema operacional influencia a experiência do usuário e a eficiência do trabalho diário.</p>
+            </div>
+            <button onclick="alternaTodos('conteudo'); alternaTexto(); alternaEstilo();" id="bttalternar" id="toggleButton" class="botao-conteudo">Mostrar mais</button></div>
+    </section>
+    <section id="projetos">
+        <div class="titulo-projetos">
+            <h2 class="projetos-h2">| Projetos |</h2>
+        </div>
+        <div class="carrossel">
+            <div class="container-carrossel" id="img">
+                <img src="https://emdiabetes.com.br/wp-content/uploads/2017/09/breve.jpg" alt="" class="img-carrossel">
+                <img src="https://emdiabetes.com.br/wp-content/uploads/2017/09/breve.jpg" alt="" class="img-carrossel">
+                <img src="https://emdiabetes.com.br/wp-content/uploads/2017/09/breve.jpg" alt="" class="img-carrossel">
+                <img src="https://emdiabetes.com.br/wp-content/uploads/2017/09/breve.jpg" alt="" class="img-carrossel">
+            </div>
+            <div class="slide-indicator" id="slide-indicator"></div>
+            <button class="btn-prev" onclick="slidePrev()">&#10094;</button>
+            <button class="btn-next" onclick="slideNext()">&#10095;</button>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container-contato">
+            <h2> | Contate-me |</h2>
+            <form action="https://formsubmit.co/contatoraoanmarcel@gmail.com" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome!" class="input-contato" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Seu email aqui!" class="  input-contato" required>
+                <label for="message" id="menssage">Conteudo:</label>
+                <textarea name="message" id="message" placeholder="Digite sua mensagem aqui!"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/Obrigado.html">
+                <button type="submit" class="botao-contato">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="script portf.js"></script>
+
+</body>
+
+</html>
